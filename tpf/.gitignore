@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+assets/*.zip
+assets/bs_rest.obj
+
+# Las figuras se regeneran con los demos. Se versionan solo las principales;
+# los datos intermedios y las de experimentos sueltos, no.
+figuras/*
+!figuras/etapa1_winding.png
+!figuras/pieza_faltante.png
+!figuras/segmentacion_graphcut.png
+!figuras/segmentacion_spot.png
+!figuras/error_vs_dano.png
+!figuras/niveles_de_dano_spot.png
+!figuras/niveles_de_dano_homer.png
+!figuras/niveles_de_dano.json
+
+# El paper se tiene localmente, no se versiona.
+P2.pdf

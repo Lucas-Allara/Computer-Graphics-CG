@@ -1,0 +1,10 @@
+# entregables generados
+entrega*.zip
+
+# basura de descomprimir en macOS
+__MACOSX/
+._*
+.DS_Store
+
+# papers de la cátedra (pesados, solo lectura local)
+Papers/
